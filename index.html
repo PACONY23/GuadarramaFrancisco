@@ -3,40 +3,52 @@
     <head>
         <title>Mi primer html</title>
     </head>
-    <body style="background-color: rgb(38, 110, 141);">
-        <h2 style="color: rgb(107, 25, 23);">Aplicaciones Web</h2>
-        <p style="color: rgb(121, 125, 81);">Mis gustos</p>
+    <body style="background-color: rgb(0, 0, 0);">
+        <h2 style="color: rgb(255, 255, 255);">Aplicaciones Web</h2>
+        <p style="color: rgb(255, 255, 255);">Mis gustos</p>
     <ol>
-        <li style="color: blue;">Anime</li>
-        <li style="color: blue;">Peliculas</li>
-        <li style="color: blue;">Comer</li>
-        <li style="color: blue;">Video juegos</li>
-        <li style="color: blue;">Estudiar</li>
+        <li style="color: rgb(255, 255, 255);">Anime</li>
+        <li style="color: rgb(255, 255, 255);">Peliculas</li>
+        <li style="color: rgb(255, 255, 255);">Comer</li>
+        <li style="color: rgb(255, 255, 255);">Video juegos</li>
+        <li style="color: rgb(255, 255, 255);">Estudiar</li>
     </ol>
 
     <table>
         <tr>
-            <th style="color: rgb(121, 125, 81);">Nombre</th>
+            <th style="color: rgb(255, 255, 255);">Nombre</th>
 
         </tr>
         <tr>
-            <td><label style="color: blue;">Fernando</label></td>
+            <td><label style="color: rgb(255, 255, 255);">Fernando</label></td>
         </tr>
         <tr>
-            <td><label style="color: blue;">Martin</label></td>
+            <td><label style="color: rgb(255, 255, 255);">Martin</label></td>
         </tr>
         <tr>
-            <td><label style="color: blue;">Daniel</label></td>
+            <td><label style="color: rgb(255, 255, 255);">Daniel</label></td>
         </tr>
         <tr>
-            <td><label style="color: blue;">Katia</label></td>
+            <td><label style="color: rgb(255, 255, 255);">Katia</label></td>
         </tr>
         <tr>
-            <td><label style="color: blue;">Pilar</label></td>
+            <td><label style="color: rgb(255, 255, 255);">Pilar</label></td>
         </tr>
     </table>
-
-    <a style="color: chocolate;" href="https://github.com/PACONY23/GuadarramaFrancisco">Mi repositorio</a>
+    <div>
+        <button>Decir Hola!</button>
+    </div>
+    <a style="color: rgb(255, 255, 255);" href="https://github.com/PACONY23/GuadarramaFrancisco">Mi repositorio</a>
     </body>
+
+    <script>
+        const mybutton = document.getElementsByTagName("button");
+
+        function decirHola(){
+            console.log("Hola mundo <|:C ");
+        }
+
+        mybutton.item(0).addEventListener("mouseover", decirHola);
+    </script>
 
 </html>
